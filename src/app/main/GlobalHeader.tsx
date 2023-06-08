@@ -18,10 +18,6 @@ export function GlobalHeader(props: { title?: string }) {
             <sup class="px-2 text-xs text-yellow-300">{__version__}</sup>
             <div class="flex-1"></div>
             <div class="flex cursor-pointer gap-2 text-center text-xs font-thin text-[#f5f3c2]">
-                <WebViewLink href="/news">
-                    新闻
-                    <sup class="italic text-rose-600">NEW</sup>
-                </WebViewLink>
                 <a
                     href="https://magic-tag.notion.site/ee1a0ab136724eb183a29d1fcc56a3d2"
                     target="_blank"
@@ -36,14 +32,14 @@ export function GlobalHeader(props: { title?: string }) {
                     popup={() => {
                         return (
                             <div class="blur-background pointer-events-auto mt-2 flex flex-col  gap-2 rounded-md border border-slate-500 p-2">
-                                <a href="https://github.com/KonghaYao/ai-tag" target="_blank">
-                                    Github
+                                <a href="https://www.cnuu.net" target="_blank">
+                                    cnuu.net
                                 </a>
                             </div>
                         );
                     }}
                 >
-                    <div>{'{{ By 江夏尧 }}'}</div>
+                    <div>{'cnuu.net'}</div>
                 </FloatPanelWithAnimate>
                 {!r18Mode() && (
                     <span
