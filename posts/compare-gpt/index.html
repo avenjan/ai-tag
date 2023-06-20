@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <title>魔导绪论</title>
+        <!-- Info Inject -->
+        <meta name="keywords" content="魔咒生成器,tag 字典,prompt generator,ai作画,ai绘图网站，novel ai tag,writing prompts,journal prompts,drawing prompts,novelai,stable diffusion webui,stable diffusion ai">
+        <meta name="description" content="魔咒生成器,tag 字典,prompt generator,ai作画,ai绘图网站，novel ai tag,writing prompts,journal prompts,drawing prompts,novelai,stable diffusion webui,stable diffusion ai">
+        <meta property="og:locale" content="zh">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="魔导绪论">
+        <meta property="og:description" content="魔咒生成器,tag 字典,prompt generator,ai作画,ai绘图网站，novel ai tag,writing prompts,journal prompts,drawing prompts,novelai,stable diffusion webui,stable diffusion ai">
+        <meta property="og:url" content="https://magic-tag.netlify.app">
+        <meta property="og:site_name" content="魔导绪论">
+        <!-- bing 的搜索验证 --><meta name="msvalidate.01" content="620AAE83A857C654A25C53AA7BEE10F6">
+<!-- yandex 搜索验证 -->
+<meta name="yandex-verification" content="fd2ff1821573dda7">
+<!-- 百度验证 -->
+<meta name="baidu-site-verification" content="code-QpALGXR0z3">
+<!-- umami Cloud -->
+<!-- <script
+    async
+    defer
+    src="https://analytics.umami.is/script.js"
+    data-website-id="e79ecc5d-7f0b-409b-9f3c-bffc90cc1173"
+></script> -->
+    <link rel="stylesheet" href="/_astro/categories.ef686cd7.css" />
+<link rel="stylesheet" href="/_astro/news.6d35e433.css" />
+<link rel="stylesheet" href="/_astro/news.0d73f088.css" /><script type="module">window.onload=()=>{[...document.getElementsByTagName("a")].map(e=>e.target="_blank")};window.recordNews=()=>{localStorage.setItem("version_news","5.6.0"),window.close()};
+</script></head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+
+        <section class="flex justify-center h-screen overflow-auto">
+        <article class="cn-typography h-fit select-text bg-grid max-w-2xl" style="color:aliceblue;">
+            <h1 id="关于-gpt-模型在-prompt-生成方面的研究">关于 GPT 模型在 Prompt 生成方面的研究</h1>
+<p>✒️ 江夏尧 | ^5.5.0</p>
+<h2 id="经验结论">经验结论</h2>
+<ol>
+<li>GPT 生成文本在描述物体准确度上高于纯粹 Tags 模式</li>
+<li>Tags 模式的画面风格指向远远精准于 GPT 文本</li>
+<li>两者并非是互斥的关系，但是结合两者的优点往往可以将整个 Prompt 的水平提高一个层次。</li>
+</ol>
+<h2 id="推导与检验">推导与检验</h2>
+<h3 id="先导知识">先导知识</h3>
+<ol>
+<li>🤖 GPT 是生成模型，意思是它通过上文生成下文。</li>
+</ol>
+<blockquote>
+<p>目前 OpenAI 好用的公开 API 的模型只有 <em>text-davinci-003</em> 和 <em>gpt-3.5-turbo</em>。<em>text-davinci-003</em> 在知识类文本生成领域非常强，魔导绪论现阶段内的模型也是这个。而 <em>gpt-3.5-turbo</em> 是经过对话优化的一个版本，这个版本的特点是会说话，特别会说废话 😂，所以聊天可以，查资料还是看 <em>text-davinci-003</em>。</p>
+</blockquote>
+<ol start="2">
+<li>📄 Prompt 与绘画工具</li>
+</ol>
+<blockquote>
+<p>据我所知，Stable Diffusion 采用的语言解析是 GPT2 的模型，导致 SD 的理解能力其实是不够的，就算描述准确了，对于某些特定的关系还是处理不好。作者笔记本 A 卡，故使用 <a href="https://aistudio.baidu.com/aistudio/projectdetail/4905623?channelType=0&#x26;channel=0">飞桨上的 Stable Diffusion</a> 进行图片生成。对我来说，我不会绘画，连基本的色彩都认识不全，但是我仍然使用这个软件在半年内产出了 近 300 幅图片（图库里面好多耶 😂）。</p>
+</blockquote>
+<ol start="3">
+<li>✨ 使用 Prompt 工具为最新版本的编辑器</li>
+</ol>
+<blockquote>
+<p>编辑器自带 Tag 查询和 GPT 模型，我也是一边研究一边改界面 😂。通过最新的界面可以实现 文本和 Tag 混合变换和排列，最后复制到生图软件中。</p>
+</blockquote>
+<h3 id="检验实验">检验实验</h3>
+<ol>
+<li>实验的描述</li>
+</ol>
+<blockquote>
+<p>我使用了以前比较好的一个全 Tag 成品，然后把正面 Tag 交由 GPT 过一遍，Tag 和 GPT Prompt 分别生图 20 张，取最好的几张看看效果。
+（评判标准主要看我喜好，就别期望啥都科学了，老中医科研 😂）
+原图是这个，在画廊里面可以找到，然后这个图的 Tag 已经是非常稳定的了，属于我的上限之一了。模型换了一个，但是不碍事。</p>
+</blockquote>
+<p><img src="https://ik.imagekit.io/dfidfiskkxn/docs/Snipaste_2023-03-30_10-29-03.png?updatedAt=1680143361328" alt=""></p>
+<blockquote>
+<p>((best quality)),(((flat color))),thick outlines,((limited palette)),medium shot,album cover, professionally color graded,bright soft diffused light,depth of field,((falling petals)),snowy city street,snow ground and tree with light, gorgeous Norwegian girl,cute natural makeup,long wavy blonde hair,freckles,blue eyes</p>
+<p>The album cover features a medium shot of a gorgeous Norwegian girl in bright soft diffused light. She has long wavy blonde hair, cute natural makeup, freckles, and blue eyes. The snowy city street in the background is covered with falling petals and snow, and there are trees with light. The image is composed with thick outlines and a limited palette, creating a flat color feel that is professionally color graded. The overall effect is enhanced by the use of depth of field.</p>
+</blockquote>
+<ol start="2">
+<li>实验成果</li>
+</ol>
+<p><img src="https://ik.imagekit.io/dfidfiskkxn/docs/%E7%BB%84_1.png?updatedAt=1680144979374" alt=""></p>
+<ol start="3">
+<li>实验分析</li>
+</ol>
+<ul>
+<li>风格分析：从结果来看，GPT 在转换 Tags 为文本过程中，移动了较为关键的风格词，如 flat color 和 limited palette, 而把 album cover 移动到了最前，导致风格偏向了 album cover 的写实风格。</li>
+<li>细节差异分析：Tags 模式在飘飞的花瓣、萝莉体型上表现较为准确，而 GPT 的人物更像是少女风格了。（PS: 因为 cute natural makeup 中的 cute 本来有比较强烈的萝莉风格）</li>
+</ul>
+            <button class="p-2 rounded-lg bg-purple-800 w-full my-4 hover:scale-95 transition-transform select-none" onclick="recordNews()">
+                已读完，点我确认一下呗😽
+            </button>
+        </article>
+    </section>
+        <style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).only=t=>{(async()=>await(await t())())()},window.dispatchEvent(new Event("astro:only"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><astro-island uid="Z1Q7xs7" component-url="/_astro/FontSupport.8f4bf1f8.js" component-export="FontSupport" renderer-url="/_astro/client.4a7c7dbc.js" props="{&quot;delay&quot;:[0,200],&quot;show&quot;:[0,false]}" ssr="" client="only" opts="{&quot;name&quot;:&quot;FontSupport&quot;,&quot;value&quot;:&quot;solid-js&quot;}"></astro-island>
+    </body></html>

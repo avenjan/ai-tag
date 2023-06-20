@@ -1,0 +1,1 @@
+import{A as c}from"./index.4f2c4b12.js";const s=(l,a,r)=>{const i=r?.parse??(e=>JSON.parse(e)),t=r?.stringify??(e=>JSON.stringify(e));if(r?.immediately??!0){const e=localStorage.getItem(a);e===null?r?.fallback&&r.fallback():l(i(e))}return c(()=>{localStorage.setItem(a,t(l()))},[l]),l};export{s as l};
